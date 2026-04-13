@@ -12,15 +12,15 @@ Predict annual healthcare costs using patient data (age, BMI, smoking status, re
 pip install -r requirements.txt
 
 
-# Download dataset
+### 2. Download dataset
 Download insurance.csv from Kaggle - Medical Cost Personal Dataset and place it in the data/ folder.
 
 
-# Train the model
+### 3. Train the model
 ```bash
 python -m src.train
 
 
 
-# Run the API server
+### 4. Run the API server
 uvicorn api.app:app --reload --port 8000
